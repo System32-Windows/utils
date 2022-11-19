@@ -13,5 +13,5 @@ tags {
 
 tags:hover {
     border-color: blueviolet;
-    transform: rotate(3), scale(1.2) 0.4s;
+    transform: scale(1.2) 0.4s;
 }
