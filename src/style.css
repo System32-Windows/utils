@@ -1,18 +1,28 @@
 #tags_flex {
     display: flex;
-    flex: content;
+    flex-wrap: wrap;
+    width: 400px;
+    background-color: rgb(119, 192, 255);
 }
 
 tags {
     background-color: rgb(0, 140, 255);
     border: 3px blue solid;
     border-radius: 10%;
-    transition: cubic-bezier(0.23, 1, 0.320, 1) 2s;
+    transition: cubic-bezier(0.23, 1, 0.320, 1) 1s;
     margin: 5px;
     flex-direction: row;
 }
 
 tags:hover {
     border-color: blueviolet;
-    transform: scale(2.5);
+    transform: scale(1.1);
+}
+
+#tags_title {
+    font-family: "Nunito", cursive;
+}
+
+#tags_title:hover {
+    font-family: "Amatic S";
 }
