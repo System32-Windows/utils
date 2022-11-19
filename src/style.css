@@ -11,6 +11,7 @@ tags {
     border-radius: 10%;
     transition: cubic-bezier(0.23, 1, 0.320, 1) 1s;
     margin: 5px;
+    -ms-flex-direction: row;
     flex-direction: row;
 }
 
@@ -21,9 +22,14 @@ tags:hover {
 
 #tags_title {
     font-family: "Amatic SC";
+    text-align: center;
     transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 1s;
 }
 
 #tags_title:hover {
-    transform: rotate(360deg) scale(0.1);
+    transform: rotate(360deg) scale(1.2);
+}
+
+#div_tags_title {
+    width: 400px;
 }
