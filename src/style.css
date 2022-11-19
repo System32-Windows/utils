@@ -9,6 +9,7 @@ tags {
     border-radius: 10%;
     transition: cubic-bezier(0.23, 1, 0.320, 1);
     margin: 5px;
+    flex-direction: row;
 }
 
 tags:hover {
