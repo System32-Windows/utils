@@ -20,9 +20,10 @@ tags:hover {
 }
 
 #tags_title {
-    font-family: "Nunito", cursive;
+    font-family: "Amatic SC";
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 1s;
 }
 
 #tags_title:hover {
-    font-family: "Amatic S";
+    transform: rotate(360deg) scale(0.1);
 }
